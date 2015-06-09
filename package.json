@@ -1,5 +1,5 @@
 {
-  "name": "errorLoger",
+  "name": "errorlogertofile",
   "version": "1.0.0",
   "description": "Logs errors",
   "main": "index.js",
