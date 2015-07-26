@@ -2,23 +2,23 @@
 
 A simple module to log errors on filesystem
 
-#Usage
+# Usage
 
-##Install
+## Install
 
     npm install error-logger
     
-##Initialize
+## Initialize
 
     var errLib = require("error-logger");
     var errorLog = new errLib(errorLogOptions);
     
-##Options
+## Options
 
     path*   : Path to save log files ,
     module* : Name of the module/ filename of error llog
     
-##Example
+## Example
     
     var errorLogOptions = {
         path : path.join(__dirname, 'error_logs'),
@@ -29,7 +29,7 @@ A simple module to log errors on filesystem
     
     errorLog("Type 114", new Error("Error in ____");
     
-##Log Function
+## Log Function
     
 Takes two arguments
     
