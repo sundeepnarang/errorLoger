@@ -1,6 +1,6 @@
 {
   "name": "error-logger",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Logs errors to file system",
   "main": "index.js",
   "scripts": {
